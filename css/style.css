@@ -102,6 +102,7 @@ a:hover,a:focus{
 }
 .navbar-header {
   float: none;
+  width: 100%;
 }
 .relative {
     position: relative;
@@ -132,8 +133,9 @@ a.navbar-brand {
 	position:  relative;
 }
 .banner{
-	background-image:url(../images/2.jpg);
-	padding-bottom:13em;
+	background-image:url(../images/11.jpg);
+	background-position:center top;
+	padding-bottom:15em;
 }
 .copyright {
     background-color: #12988a;
@@ -460,3 +462,13 @@ button.navbar-toggle:focus {
 .scrolled div#myNavbar {
     top: 70px;
 }}
+/*new*/
+.navbar-brand{
+	width:100%;
+}
+button.navbar-toggle {
+    display: none;
+}
+.circle {
+    margin-bottom: 40px;
+}
